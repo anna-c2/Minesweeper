@@ -149,13 +149,13 @@ public class MSButton
     public void draw () 
     {    
         if (flagged)
-            fill(0);
+            fill(#faebb4);
          else if( clicked && mines.contains(this) ) 
-             fill(255,0,0);
+             fill(#ed643e);
         else if(clicked)
-            fill( 200 );
+            fill( #bfae8f );
         else 
-            fill( 100 );
+            fill( #6be8a5 );
 
         rect(x, y, width, height);
         fill(0);
